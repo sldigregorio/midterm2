@@ -1,0 +1,89 @@
+body {
+    background: #FFFFFF;
+	font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    margin:0 auto;
+}
+
+
+header {
+    text-align: center;
+    font-size: 30px;
+    background: rgb(185,185,185);
+    background: -moz-linear-gradient(top, rgb(185,185,185) 0%, rgb(255,255,255) 100%);
+    background: -webkit-linear-gradient(top, rgb(185,185,185) 0%, rgb(255,255,255) 100%);
+    background: linear-gradient(to bottom, rgb(185,185,185) 0%, rgb(255,255,255) 100%);
+    padding: 50px;
+}
+
+
+p.strapline {
+    font-style: italic;
+    font-size: larger;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    max-width: 90%;
+    font-size: 1vw;
+    flex-grow: 2;
+}   
+
+
+nav img {
+    width: 100px;
+    max-height: 100px;
+}
+
+
+nav ul {
+    
+
+}
+
+
+nav ul li {
+    padding: 1em;
+    display: inline-block;
+    font-variant: small-caps
+}
+
+
+div.container {
+    width: 90%;
+    max-width: 1000px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+main {
+    max-width: 65%;
+}
+
+
+aside {
+    max-width: 15%;
+}
+
+
+aside img {
+    width: 100%;
+}
+
+
+footer {
+    font-style: italic;
+    font-size: larger;
+    text-align: center;
+    width: 80%;
+    margin: top 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px;
+}
